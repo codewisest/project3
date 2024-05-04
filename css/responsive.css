@@ -1,0 +1,332 @@
+@media screen and (max-width: 750px) {
+    .hero h1 {
+        font-size: 1.9rem;
+    }
+
+    footer .container {
+        width: 98%;
+    }
+
+    footer .upper {
+        width: 100%;
+    }
+
+    footer p {
+        font-size: 0.7rem;
+    }
+
+    footer h2 {
+        font-size: 1rem;
+    }
+
+    footer li {
+        font-size: 0.7rem;
+    }
+
+    footer label {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header-lower > nav {
+        grid-column: 3/10;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+        margin-bottom: 0.7rem;
+    }
+
+    .hero .wrapper {
+        width: 85%;
+    }
+
+    .spotlight .content {
+        width: 90%; 
+    }
+
+    .contact .wrapper {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header-upper > p:first-child {
+        display: none;
+    }
+    
+    .hero .wrapper {
+        width: 90%;
+    }
+
+    .hero h1 {
+        font-size: 1.7rem;
+        margin-bottom: 0.7rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .hero h1 > span {
+        font-size: 0.8rem;
+    }
+
+    h2 > span {
+        font-size: 0.7rem;
+    }
+
+    .hero .wrapper {
+        width: 90%;
+    }
+
+    .hero .image {
+        
+        right: 2rem;
+        border: 2px solid red;
+        
+    }
+
+    .hero a {
+        border: 1px solid #fff;
+        font-size: 0.5rem;
+        padding: 0.1rem 0.3rem;
+    }
+
+    .spotlight .content {
+        width: 100%; 
+    }
+
+    .contact .wrapper {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 632px) {
+    footer .upper {
+        justify-content: center;
+    }
+
+    footer .upper > div:not(:last-child) {
+        margin: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-lower > nav {
+        grid-column: 3/11;
+        
+    }
+
+    .header-lower {
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .header-lower > nav {
+        grid-row: 2/3;
+        grid-column: 2/11;
+        align-items: flex-start;
+        
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.6rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .hero h1 > span {
+        font-size: 0.6rem;
+    }
+
+    h2 > span {
+        font-size: 0.6rem;
+    }
+
+    .hero .text p,
+    .spotlight p {
+        font-size: 0.7rem;
+    }
+
+    .hero .image {
+        right: 4rem;
+    }
+
+    .spotlight .wrapper {
+        width: 100%;
+    }
+
+    .spotlight .content {
+        width: 95%; 
+    }
+
+    .spotlight a {
+        font-size: 0.6rem;
+        
+    }
+
+    footer .upper > div:not(:last-child) {
+        margin: 2rem;
+    }
+
+    footer .lower {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .contact .wrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .hero h1 {
+        font-size: 1.4rem;
+    }
+
+    footer .upper > div:not(:last-child) {
+        margin: 1.5rem;
+    }
+
+    .contact .wrapper {
+        width: 95%;
+    }
+
+    .contact p {
+        font-size: 0.6rem;
+        letter-spacing: 1px;
+    }
+    
+    .contact h1 {
+        font-size: 0.8rem;   
+    }
+}
+
+@media screen and (max-width: 530px) {
+    footer .upper {
+        flex-direction: column;
+        align-items: center;
+    }    
+}
+
+@media screen and (max-width: 500px) {
+    .header-upper {
+        font-size: 0.6rem;
+        padding: 0.5rem 1rem 0.5rem 0.5rem;
+    
+    }
+
+    .header-lower {
+        grid-template-rows: 1fr;
+    }
+
+    .header-lower > nav {
+        display: none;
+    }
+
+    .logo img {
+        width: 30px;
+    }
+
+    .hamburger-icon {
+        display: block;
+        grid-column: 11/12;
+    }
+
+    .shopping-bag {
+        grid-column: 6/7;
+        align-self: center;
+        justify-self: flex-end;
+    }    
+
+    .hero h1 {
+        font-size: 1rem;
+    }
+
+    .hero h1 > span {
+        font-size: 0.5rem;
+    }
+
+    .hero .text p {
+        font-size: 0.6rem;
+    line-height: 15px;
+
+    }
+
+    .hero img {
+        width: 300px;
+        
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .spotlight .content {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+
+    .spotlight-image {
+        width: 90%;
+        height: 50%;
+    }
+
+    .spotlight-text {
+        width: 90%;
+        height: 50%;
+        padding-top: 1rem;
+    }
+
+    footer .lower .right a {
+        
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    .contact .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-left,
+    .contact-right {
+        min-width: 250px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .hero .wrapper {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 0.8rem;
+    }
+
+    .spotlight-text {
+        
+        height: 60%;
+        padding-top: 2rem;
+    }
+}
+
+/* * FOR LANDSCAPE */
+@media (orientation: landscape) {
+    .hero {
+        height: 60vh;
+    }
+}
+
